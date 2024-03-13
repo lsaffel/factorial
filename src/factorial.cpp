@@ -14,7 +14,15 @@ int main()
 
     int factorial = 1;
 
-    for(int i = 1; i <= number; i++) {
+    // for(int i = 1; i <= number; i++) {
+    //     factorial = factorial * i;
+
+    // }
+
+    // another way of solving this
+    // 6! = 6*5*4*3*2*1 = 720
+
+    for(int i = number; i >= 1; i--) {
         factorial = factorial * i;
 
     }
